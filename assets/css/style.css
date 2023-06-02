@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    min-height: 100vh;
+    background-image: url(../img/inicio.jpg);
+    background-size: cover;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+    transition: all 0.35s ease-in-out;
+    border-radius: 0.0em 0.0em 0.8em 0.8em;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.main-nav a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+}
+.main-nav li {
+    margin: 5px;
+}
+.nav-link {
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: all 0.35s ease-in-out;
+}
+.nav-link:hover {
+    border: 1px solid #2d428852;
+    background-color: #2d428837;
+}
+a:active,
+a:hover {
+    outline: 0;
+    transition: none !important;
+}
+.formulario {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    background-color: #283c7f6f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2d4288;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: white;
+    margin: 0px 0px 30px 0px;
+}
+select {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #2d4288;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #6026b298;
+    color: #ffffff;
+}
+
+select:focus {
+    outline: none;
+}
+select option {
+    text-align: center;
+    background-color: transparent;
+}
+
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #2d4288;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #2d4288;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.mensaje {
+    color: white;
+    margin: 40px;
+    font-size: 25px;
+    align-items: center;
+}
