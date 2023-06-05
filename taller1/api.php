@@ -1,9 +1,6 @@
 <?php
 $planetas = array(
-    "Sol" => array(
-        "numero" => 1,
-        "imagen" => "https://images.pexels.com/photos/87611/sun-fireball-solar-flare-sunlight-87611.jpeg"
-    ),
+    "Sol" => 1,
     "Mercurio" => 2,
     "Venus" => 3,
     "Tierra" => 4,
@@ -11,20 +8,17 @@ $planetas = array(
     "Jupiter" => 6,
     "Saturno" => 7,
     "Urano" => 8,
-    "Neptuno" => 9,
+    "Neptuno" => 9
 );
 
 $seleccion = $_POST['planetas'];
 
-if (isset($planetas[$seleccion])) {
-    $planetaSeleccionado = $planetas[$seleccion];
-    if (is_array($planetaSeleccionado)) {
-        $mensaje = "El planeta seleccionado es: " . $seleccion;
-        $imagen = $planetaSeleccionado['imagen'];
-    } else {
-        $mensaje = "No se ha seleccionado ningún planeta válido";
-        $imagen = "";
-    }
+$planetasInvertidos = array_flip($planetas);
+$planetaSeleccionado = $planetasInvertidos[$seleccion] ?? null;
+
+if ($planetaSeleccionado) {
+    $mensaje = "El planeta seleccionado es: " . $planetaSeleccionado;
+    $imagen = "/assets/img/" . strtolower($planetaSeleccionado) . ".jpeg";
 } else {
     $mensaje = "No se ha seleccionado ningún planeta válido";
     $imagen = "";
