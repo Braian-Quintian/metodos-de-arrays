@@ -23,6 +23,14 @@
                     <li class="nav-item"><a href="index.php" class="nav-link" data-link="taller3">Taller 3</a></li>
                     <li class="nav-item"><a href="../taller4/index.php" class="nav-link" data-link="taller4">Taller 4</a></li>
                     <li class="nav-item"><a href="../taller5/index.php" class="nav-link" data-link="taller5">Taller 5</a></li>
+                    <li class="nav-item"><a href="../taller6/index.php" class="nav-link" data-link="taller6">Taller 6</a></li>
+                    <li class="nav-item"><a href="../taller7/index.php" class="nav-link" data-link="taller7">Taller 7</a></li>
+                    <li class="nav-item"><a href="../taller8/index.php" class="nav-link" data-link="taller8">Taller 8</a></li>
+                    <li class="nav-item"><a href="../taller9/index.php" class="nav-link" data-link="taller9">Taller 9</a></li>
+                    <li class="nav-item"><a href="../taller10/index.php" class="nav-link" data-link="taller10">Taller 10</a></li>
+                    <li class="nav-item"><a href="../taller11/index.php" class="nav-link" data-link="taller11">Taller 11</a></li>
+                    <li class="nav-item"><a href="../taller12/index.php" class="nav-link" data-link="taller12">Taller 12</a></li>
+                    <li class="nav-item"><a href="../taller13/index.php" class="nav-link" data-link="taller13">Taller 13</a></li>
                 </ul>
             </nav>
         </div>
