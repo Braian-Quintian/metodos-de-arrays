@@ -36,12 +36,13 @@
 }
 
 .main-nav li {
-    margin: 5px;
+    margin: 2px;
 }
 
 .nav-link {
     border-radius: 30px;
-    padding: 10px 20px;
+    /* MODIFICA AQUÍ PARA QUE TODOS ENTREN EN LA MISMA LÍNEA */
+    padding: 2.5px;
     transition: all 0.35s ease-in-out;
 }
 
