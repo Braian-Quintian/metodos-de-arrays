@@ -1,0 +1,83 @@
+.formulario {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    /* Agregado: espaciado horizontal de 20px */
+    box-sizing: border-box;
+    /* Agregado: considerar el padding en el ancho total */
+}
+
+.card {
+    width: 400px;
+    min-height: 300px;
+    height: auto;
+    background-color: #283c7f6f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2d4288;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+    margin-bottom: 30px;
+    /* Agregado: espaciado interno de 20px */
+    box-sizing: border-box;
+    /* Agregado: considerar el padding en el ancho total */
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    /* Modificado: eliminado margen inferior */
+    text-align: center;
+    /* Agregado: centrar el texto */
+}
+
+
+input[type="number"],
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #2d4288;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #2d4288;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="number"]::placeholder {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+button:hover {
+    background-color: #2d428837;
+}
+
+.mensaje {
+    color: white;
+    margin: 40px;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+}
