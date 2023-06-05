@@ -43,9 +43,11 @@
                         <button type="submit">Buscar</button>
                     </form>
                     <div class="mensaje">
-                        <label id="mensaje"><?php echo isset($_GET['mensaje']) ? $_GET['mensaje'] : ''; ?></label>
-                        <?php if (isset($_GET['imagen'])) : ?>
-                            <img src="<?php isset($_GET['imagen']) ; ?>" alt="Imagen del planeta">
+                        <?php echo isset($_GET['mensaje']) ? $_GET['mensaje'] : ''; ?>
+                        <?php if (isset($_GET['imagen']) && $_GET['imagen'] !== '') : ?>
+                            <div class="image-container">
+                                <img src="<?php echo $_GET['imagen']; ?>" alt="Imagen del planeta">
+                            </div>
                         <?php endif; ?>
                     </div>
                 </div>
