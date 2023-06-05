@@ -18,7 +18,7 @@ $planetaSeleccionado = $planetasInvertidos[$seleccion] ?? null;
 
 if ($planetaSeleccionado) {
     $mensaje = "El planeta seleccionado es: " . $planetaSeleccionado;
-    $imagen = "/assets/img/" . strtolower($planetaSeleccionado) . ".jpeg";
+    $imagen = "assets/img/" . strtolower($planetaSeleccionado) . ".jpeg";
 } else {
     $mensaje = "No se ha seleccionado ningún planeta válido";
     $imagen = "";
