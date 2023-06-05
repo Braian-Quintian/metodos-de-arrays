@@ -10,7 +10,7 @@
     background-size: cover;
 }
 
-.header{
+.header {
     width: 100%;
     height: 60px;
     display: flex;
@@ -23,33 +23,39 @@
     overflow: hidden;
     box-sizing: border-box;
 }
-.main-nav a{
+
+.main-nav a {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    text-decoration: none;
 }
+
 .main-nav ul {
     display: flex;
     list-style: none;
 }
+
 .main-nav li {
     margin: 5px;
 }
+
 .nav-link {
     border-radius: 30px;
     padding: 10px 20px;
     transition: all 0.35s ease-in-out;
 }
+
 .nav-link:hover {
     border: 1px solid #2d428852;
     background-color: #2d428837;
 }
+
 a:active,
 a:hover {
     outline: 0;
     transition: none !important;
 }
+
 .formulario {
     margin-top: 100px;
     width: 100%;
@@ -58,7 +64,8 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-.card{
+
+.card {
     width: 400px;
     min-height: 300px;
     height: auto;
@@ -69,11 +76,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
+
 h1 {
     color: white;
     margin: 0px 0px 30px 0px;
 }
+
 select {
     width: 100%;
     height: 40px;
@@ -89,13 +99,13 @@ select {
 select:focus {
     outline: none;
 }
+
 select option {
     text-align: center;
     background-color: transparent;
 }
 
-
-button{
+button {
     width: 100%;
     height: 40px;
     border-radius: 5px;
@@ -113,4 +123,17 @@ button{
     margin: 40px;
     font-size: 25px;
     align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
 }
